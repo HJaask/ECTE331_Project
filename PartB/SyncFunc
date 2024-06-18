@@ -6,7 +6,7 @@ package projectb;
 
 public class SyncFunc {
 	public static void main(String[] args) {
-		int testSize = 1;
+		int testSize = 4;
 		int i;
 		Data mySample = new Data();
 		for (i=0; i< testSize ; i++) {
