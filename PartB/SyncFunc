@@ -6,11 +6,11 @@ package projectb;
 
 public class SyncFunc {
 	public static void main(String[] args) {
-		int testSize = 4;
+		int testSize = 1;
 		int i;
 		Data mySample = new Data();
 		for (i=0; i< testSize ; i++) {
-			System.out.println("This iteration "+ i );
+			System.out.println("Iteration "+ i );
 			mySample.goFunA2 = false;
 			mySample.goFunA3 = false;
 			mySample.goFunB2 = false;
